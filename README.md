@@ -18,7 +18,13 @@ The infrastructure consists of:
 - **Terraform**: Automates creation, updates, and destruction of the infrastructure.
 - **Outputs**: Public IPs of EC2 instances and ALB DNS for easy access.
 
-**Architecture Diagram (Suggested Layout):**
+## Architecture Diagram
+
+This diagram shows the AWS cloud infrastructure deployed using Terraform.  
+It illustrates a **highly available web application** with multi-AZ EC2 instances behind an Application Load Balancer (ALB), connected to a SQL database.
+
+![AWS Terraform Architecture](architecture/architecture-diagram.png)
+
 
 
 
